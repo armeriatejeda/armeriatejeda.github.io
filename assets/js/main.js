@@ -202,6 +202,8 @@
 
   });
 
+
+  
   /**
    * Initiate portfolio lightbox 
    */
@@ -239,3 +241,8 @@
   });
 
 })()
+
+
+document.getElementById("Contactos").addEventListener("click", function() {
+  location.hash = "#contactos";
+});
